@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon premier tableau</title>
+    <meta
+      name="description"
+      content="Ceci est mon premier tableau."
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="javascript.html">javascript</a></li>
+          <li><a href="tableaux.html">Les tableaux</a></li>
+          <li>
+            <a href="https://interface3namur.be" target="_blank"
+              >interface3namur</a
+            >
+          </li>
+          <li><a href="formulaire.html">formulaire</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>les Tableaux</h1>
+      <section>
+          <h2>Mise en forme des tableaux</h2>
+          <article>              
+            <h3>Un tableau simple</h3>
+            <table>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+              </tr>
+            </table>
+          </article>
+          <article>
+            <h3>les en-têtes (th) pour un tableau en colonnes</h3>
+            <table>
+              <tr>
+                <th>titre col 1</th>
+                <th>titre col 2</th>
+                <th>titre col 3</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+              </tr>
+            </table>
+          </article>
+          <article>
+            <h3>Tableaux organisés en lignes</h3>
+            <table class="table1">
+              <tr>
+                <th>Titre de ligne 1</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>titre de ligne 2</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>titre de ligne 3</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>titre de ligne 4</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </article>
+          <article>
+            <h3>la propriete border-collapse</h3>
+            <table class="table2">
+              <tr>
+                <th>titre colonne1</th>
+                <th>titre 2</th>
+                <th>titre 3</th>
+                <th>titre 4</th>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+              </tr>
+            </table>
+          </article>
+        <article>
+          <h3>tableau organisé en lignes et en colonnes</h3>
+
+          <table class="'table3">
+            <tr>
+              <th></th>
+              <th scope="col">Colonne1</th>
+              <th scope="col">Colonne2</th>
+              <th scope="col">Colonne3</th>
+            </tr>
+            <tr>
+              <th scope="row">Ligne 1</th>
+              <cd>1</cd>
+              <cd>2</cd>
+              <cd>3</cd>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <cd></cd>
+              <cd></cd>
+              <cd></cd>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <cd></cd>
+              <cd></cd>
+              <cd></cd>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h3>Les séparations thead, tbodu et tfoot</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Nom de l'employé</th>
+                <th>Salaire</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+        </article>
+        <article>
+          <h3>La fusion des cellules</h3>
+          <table>
+            <caption>Fusion des cellules</caption>
+            <tr>
+              <th>col1</th>
+              <th>col2</th>
+              <th>col3</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </table>
+        </article>
+<article>
+  <h3>Regroupement de colonnes avec clgrpi et col</h3>
+  <table class="table1">
+    <caption>les vacances</caption>
+    <colgroup>
+    <col>
+    <col>
+    <col>
+    </colgroup>
+    <tr>
+      <th></th>
+    </tr>
+    <tr>
+      <th></th>
+    </tr>
+    <tr>
+      <th></th>
+    </tr>
+    <tr>
+      <th></th>
+    </tr>
+  </table>*4
+</article>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Informations</h2>
+      <p>Site web réalisé dans le cadre de la formation</p>
+      <p><strong>Dev Fullstack JS</strong></p>
+      <p><strong>Toni Deplano</strong> &copy;2022</p>
+    </footer>
+  </body>
+</html>
