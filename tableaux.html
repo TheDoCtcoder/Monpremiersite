@@ -5,21 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mon premier tableau</title>
-    <meta
-      name="description"
-      content="Ceci est mon premier tableau."
+    <meta name="description" content="Ceci est mon premier tableau." />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/tableau.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div>
         <!-- Image ajoutée via le CSS -->
-        
       </div>
       <nav>
         <ul>
@@ -39,155 +38,158 @@
     <main>
       <h1>les Tableaux</h1>
       <section>
-          <h2>Mise en forme des tableaux</h2>
-          <article>              
-            <h3>Un tableau simple</h3>
-            <table>
-              <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>11</td>
-                <td>12</td>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>16</td>
-                <td>17</td>
-                <td>18</td>
-                <td>19</td>
-                <td>20</td>
-              </tr>
-            </table>
-          </article>
-          <article>
-            <h3>les en-têtes (th) pour un tableau en colonnes</h3>
-            <table>
-              <tr>
-                <th>titre col 1</th>
-                <th>titre col 2</th>
-                <th>titre col 3</th>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-            </table>
-          </article>
-          <article>
-            <h3>Tableaux organisés en lignes</h3>
-            <table class="table1">
-              <tr>
-                <th>Titre de ligne 1</th>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th>titre de ligne 2</th>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th>titre de ligne 3</th>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th>titre de ligne 4</th>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </table>
-          </article>
-          <article>
-            <h3>la propriete border-collapse</h3>
-            <table class="table2">
-              <tr>
-                <th>titre colonne1</th>
-                <th>titre 2</th>
-                <th>titre 3</th>
-                <th>titre 4</th>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>10</td>
-                <td>11</td>
-                <td>12</td>
-              </tr>
-              <tr>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
-                <td>16</td>
-              </tr>
-            </table>
-          </article>
+        <h2>Mise en forme des tableaux</h2>
         <article>
-          <h3>tableau organisé en lignes et en colonnes</h3>
-
-          <table class="'table3">
+          <h3>Un tableau simple</h3>
+          <table>
             <tr>
-              <th></th>
-              <th scope="col">Colonne1</th>
-              <th scope="col">Colonne2</th>
-              <th scope="col">Colonne3</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
             </tr>
             <tr>
-              <th scope="row">Ligne 1</th>
-              <cd>1</cd>
-              <cd>2</cd>
-              <cd>3</cd>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
             </tr>
             <tr>
-              <th scope="row">4</th>
-              <cd></cd>
-              <cd></cd>
-              <cd></cd>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
             </tr>
             <tr>
-              <th scope="row"></th>
-              <cd></cd>
-              <cd></cd>
-              <cd></cd>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
             </tr>
           </table>
         </article>
         <article>
-          <h3>Les séparations thead, tbody  et tfoot</h3>
+          <h3>les en-têtes (th) pour un tableau en colonnes</h3>
+          <table>
+            <tr>
+              <th>titre col 1</th>
+              <th>titre col 2</th>
+              <th>titre col 3</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h3>Tableaux organisé en ligne</h3>
+          <table class="table1">
+            <tr>
+              <th>Titre de ligne 1</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th>Titre de ligne 2</th>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th>Titre de ligne 3</th>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th>Titre de ligne 4</th>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h3>La propriété border-collapse</h3>
+
+          <table class="table2">
+            <tr>
+              <th>Titre col1</th>
+              <th>Titre col2</th>
+              <th>Titre col3</th>
+              <th>Titre col4</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h3>Tableau organisé en ligne et en colonnes</h3>
+
+          <table class="table3">
+            <tr>
+              <th></th>
+              <th scope="col">Colonne 1</th>
+              <th scope="col">Colonne 2</th>
+              <th scope="col">Colonne 3</th>
+            </tr>
+            <tr>
+              <th scope="row">Ligne 1</th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th scope="row">Ligne 2</th>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th scope="row">Ligne 3</th>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+            </tr>
+          </table>
+        </article>
+
+        <article>
+          <h3>Les séparations ,thead,tbody et tfoot</h3>
+
           <table>
             <thead>
               <tr>
@@ -195,52 +197,100 @@
                 <th>Salaire</th>
               </tr>
             </thead>
+
             <tbody>
               <tr>
-                <td>Toni Deplano</td>
-                <td>2450 €</td>
+                <td>Depp</td>
+                <td>1800</td>
+              </tr>
+              <tr>
+                <td>Wick</td>
+                <td>1850</td>
+              </tr>
+              <tr>
+                <td>Dupont</td>
+                <td>1825</td>
               </tr>
             </tbody>
+
+            <tfoot>
+              <tr>
+                <th>Total</th>
+                <td>5475</td>
+              </tr>
+            </tfoot>
           </table>
         </article>
         <article>
           <h3>La fusion des cellules</h3>
           <table>
-            <caption>Fusion des cellules</caption>
+            <caption>
+              Fusion des cellules
+            </caption>
+
             <tr>
-              <th>col1</th>
-              <th>col2</th>
-              <th>col3</th>
+              <th>Col 1</th>
+              <th>Col 2</th>
+              <th>Col 3</th>
             </tr>
             <tr>
-              <td colspan="2">fusion de cellule 1 et 2</td>
+              <td>1</td>
+              <td>2</td>
               <td>3</td>
+            </tr>
+            <tr>
+              <td colspan="2">4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td rowspan="2">6</td>
+              <td>7</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
             </tr>
           </table>
         </article>
-<article>
-  <h3>Regroupement de colonnes avec colgroup  et colspan </h3>
-  <table class="table1">
-    <caption>les vacances</caption>
-    <colgroup>
-    <col>
-    <col>
-    <col>
-    </colgroup>
-    <tr>
-      <th></th>
-    </tr>
-    <tr>
-      <th></th>
-    </tr>
-    <tr>
-      <th></th>
-    </tr>
-    <tr>
-      <th></th>
-    </tr>
-  </table>
-</article>
+        <article>
+          <h3>Regroupement des colonnes avec colgroup et col</h3>
+
+          <table class="table1">
+            <caption>
+              Les vacances
+            </caption>
+            <colgroup>
+              <col />
+              <col span="2" class="vacances" />
+              <col />
+            </colgroup>
+            <tr>
+              <th>Juin</th>
+              <th>Juillet</th>
+              <th>Aout</th>
+              <th>Septembre</th>
+            </tr>
+            <tr>
+              <td>x</td>
+              <td>x</td>
+              <td>x</td>
+              <td>x</td>
+            </tr>
+            <tr>
+              <td>x</td>
+              <td>x</td>
+              <td>x</td>
+              <td>x</td>
+            </tr>
+            <tr>
+              <td>x</td>
+              <td>x</td>
+              <td>x</td>
+              <td>X</td>
+            </tr>
+          </table>
+        </article>
       </section>
     </main>
 
